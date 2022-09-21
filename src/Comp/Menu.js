@@ -8,8 +8,8 @@ function Menu() {
   return (
     <div>
         <nav className='Menu'>
-          <Link to='/'>Home</Link>
-          <Link to='/cart'>Ordered: {amountOfAll} Cart</Link>
+          <Link to='/'><h4>Home</h4></Link>
+          <Link to='/cart'><h4>Ordered: {amountOfAll} Cart</h4></Link>
         </nav>
     </div>
   )

@@ -46,3 +46,6 @@
     border: none;
     margin: 2px;
 }
+button:hover{
+    cursor: pointer;
+}
